@@ -1,6 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarpanch:wght@800&display=swap");
+
 body {
-    background-color: rgb(190, 190, 190);
+    background-image: url(https://wallpaperaccess.com/full/1103842.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-family: "Sarpanch", sans-serif;
+    font-size: 6rem;
+    padding: 10px 0px 10px 0px;
+    color: #1D9099;
+    text-shadow: 5px 5px #E79C10, 10px 10px #D53A33;
+    text-decoration: underline dashed;
+    letter-spacing: 10px;
+    background-color: #444444;
+    border: 3px solid black;
+}
+
+.about {
+    background-color: #808080;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    text-align: center;
 }
 
 table {
@@ -13,31 +40,48 @@ td {
 }
 
 .nav-bar ul{
+    margin: 0;
+    top: 0;
+    overflow: hidden;
     display: inline-block;
     list-style-type: none;
     background-color: black;
-    width: 50%;
-}
-
-.nav-bar a{
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    padding: 20px 20px;
+    width: 100%;
+    padding: 0;
+    position: fixed;
 }
 
 .nav-bar li {
-    padding: 10px 25px 10px 25px;
+    float: left;
+    text-decoration: none;
+    width: 50%;
 }
 
-.nav-bar li:hover {
+.nav-bar li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.nav-bar li a:hover {
     background-color: rgb(50, 50, 50);
-    padding: 10px 25px 10px 25px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
 }
 
 table {
-    width: 50%;
+    width: fit-content;
+    background-color: white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: auto;
 }
 
 td {
@@ -46,5 +90,8 @@ td {
 
 .active {
     background-color: green;
-    display: inline-block;
+}
+
+#fixtures {
+    font-size: 30px;
 }
