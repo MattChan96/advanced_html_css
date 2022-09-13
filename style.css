@@ -8,13 +8,21 @@ h1 {
     text-align: center;
     font-family: "Sarpanch", sans-serif;
     font-size: 6rem;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 100px 10px 0px;
     color: #1D9099;
     text-shadow: 5px 5px #E79C10, 10px 10px #D53A33;
     text-decoration: underline dashed;
     letter-spacing: 10px;
     background-color: #444444;
     border: 3px solid black;
+    display: grid;
+    justify-content: right;
+    grid-template-columns: 50% 50%;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .about {
@@ -58,7 +66,7 @@ td {
 }
 
 .nav-bar li a{
-    display: block;
+    display: inline-block;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -68,6 +76,7 @@ td {
 }
 
 .nav-bar li a:hover {
+    display: inline-block;
     background-color: rgb(50, 50, 50);
     width: 100%;
     text-align: center;
