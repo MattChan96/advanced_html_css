@@ -8,48 +8,64 @@
     <title>Saracens</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./images/saracens_logo.png">
+    <link rel="stylesheet" href="">
 </head>
 
 <body>
     <header>
+        <img class="logo" src="./images/saracens_logo.png" alt="Saracens Logo">
         <h1>Saracens</h1>
     </header>
-    <nav>
+    <nav class="nav-bar">
         <ul class="nav-bar">
-            <li class="active"><a href="./index.html">Home</a></li>
+            <li class="nav-bar active"><a href="./index.html">Home</a></li>
             <li class="nav-bar"><a href="./about.html">About</a></li>
         </ul>
     </nav>
 
-    <br>
-    <br>
-    <table>
-        <tr>
-            <th>Date</th>
-            <th>Time</th>
-            <th>Team</th>
-        </tr>
-        <tr>
-            <td>17th Sept</td>
-            <td>15:00</td>
-            <td>Harlequins</td>
-        </tr>
-        <tr>
-            <td>24th Sept</td>
-            <td>15:00</td>
-            <td>Gloucester</td>
-        </tr>
-        <tr>
-            <td>1st Oct</td>
-            <td>15:00</td>
-            <td>Leicester</td>
-        </tr>
-        <tr>
-            <td>15th Oct</td>
-            <td>15:00</td>
-            <td>Bath</td>
-        </tr>
-    </table>
+    <div class="flex-hori1">
+        <div class="flexwrap-verti1">
+            <div class="flex-verti2">
+                <h2> Introduction </h2>
+            </div>
+            <div class="flex-verti3">
+                <p class="foo"> Saracens Football Club are an English professional rugby union club based in North
+                    London, England. As of the current 2022-23 season, they compete in Premiership Rugby, the highest
+                    tier competition in English rugby, as well as the domestic Premiership Rugby Cup and the European
+                    Rugby Champions Cup. </p>
+            </div>
+        </div>
+        <div class="flex-right">
+            <img src="./images/saracens_logo.png" class="img1">
+        </div>
+
+        <table id="fixtures">
+            <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Team</th>
+            </tr>
+            <tr>
+                <td>17th Sept</td>
+                <td>15:00</td>
+                <td>Harlequins</td>
+            </tr>
+            <tr>
+                <td>24th Sept</td>
+                <td>15:00</td>
+                <td>Gloucester</td>
+            </tr>
+            <tr>
+                <td>1st Oct</td>
+                <td>15:00</td>
+                <td>Leicester</td>
+            </tr>
+            <tr>
+                <td>15th Oct</td>
+                <td>15:00</td>
+                <td>Bath</td>
+            </tr>
+        </table>
 </body>
 
 </html>
