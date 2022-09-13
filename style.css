@@ -1,3 +1,47 @@
 body {
-    
+    background-color: rgb(190, 190, 190);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border: solid black  2px;
+}
+
+td {
+    border: solid black 1px;
+    background-color: rgb(150, 150, 150);
+}
+
+.nav-bar {
+    display: inline-block;
+    list-style-type: none;
+    background-color: black;
+    width: 50%;
+}
+
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar li {
+    padding: 10px 25px 10px 25px;
+}
+
+.nav-bar li:hover {
+    background-color: rgb(50, 50, 50);
+    padding: 10px 25px 10px 25px;
+}
+
+table {
+    width: 50%;
+}
+
+td {
+    text-align: center;
+}
+
+.active {
+    background-color: green;
+    display: inline-block;
 }
